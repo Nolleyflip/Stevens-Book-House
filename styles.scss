@@ -7,18 +7,35 @@ $box-color: lightgreen;
     box-sizing: border-box;
 }
 body {
-
+    background-image: url(./assets/Library.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.header-box{
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    border: 1px solid black;
 }
 header {
     color: $header-color;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
-h4 {
+h3 {
     color: purple;
     text-align: center;
+    padding: 10px;
 }
 p {
     text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
 }
 section {
     display: flex;
@@ -30,7 +47,7 @@ section {
     margin: 10px;
     background-color: $box-color;
     opacity: 75%;
-    width: 75%;
+    width: 48%;
     justify-content: center;
     display: flex;
 }
@@ -47,4 +64,7 @@ section {
     width: 150px;
     height: 150px;
     background-color: $box-color;
+}
+footer { 
+
 }
