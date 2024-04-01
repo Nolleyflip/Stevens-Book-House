@@ -1,5 +1,7 @@
 $header-color: crimson;
 $box-color: lightgreen;
+$font-size: 1.5em;
+$border-size: 1px solid black;
 
 *{
     padding: 0;
@@ -19,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: lightgrey;
-    border: 1px solid black;
+    border: $border-size;
 }
 header {
     color: $header-color;
@@ -34,7 +36,7 @@ h3 {
 }
 p {
     text-align: center;
-    font-size: 1.5em;
+    font-size: $font-size;
     padding: 10px;
 }
 a {
