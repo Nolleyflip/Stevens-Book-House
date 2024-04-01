@@ -5,30 +5,48 @@
 }
 
 header {
-  color: green;
+  color: crimson;
+  text-align: center;
+}
+
+h4 {
+  color: purple;
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 
 section {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.birds {
-  width: 120px;
-  height: 120px;
-  display: inline-block;
+.box {
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgreen;
+  opacity: 75%;
+  width: 75%;
+  justify-content: center;
+  display: flex;
 }
 
 .mockingbird {
-  height: 120px;
-  width: 120px;
+  width: 150px;
+  height: 150px;
 }
 
-.mockingbird-box {
-  padding: 120px;
+.crow {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
 }
 
-a {
-  display: flex;
-  float: right;
+.birds {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
 }/*# sourceMappingURL=styles.css.map */
