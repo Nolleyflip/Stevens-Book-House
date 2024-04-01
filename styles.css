@@ -17,7 +17,7 @@ body {
   width: 25%;
   display: flex;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: white;
   border: 1px solid black;
 }
 
@@ -28,10 +28,28 @@ header {
   justify-content: center;
 }
 
+.sub-header-box {
+  padding: 10px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid black;
+}
+
 h3 {
   color: purple;
   text-align: center;
   padding: 10px;
+}
+
+.option-box {
+  padding: 10px;
+  width: 44%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid black;
 }
 
 p {
@@ -50,6 +68,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 10px;
 }
 
 .box {

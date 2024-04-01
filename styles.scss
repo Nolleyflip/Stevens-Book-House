@@ -20,7 +20,7 @@ body {
     width: 25%;
     display: flex;
     justify-content: center;
-    background-color: lightgrey;
+    background-color: white;
     border: $border-size;
 }
 header {
@@ -29,10 +29,26 @@ header {
     display: flex;
     justify-content: center;
 }
+.sub-header-box {
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: $border-size;
+}
 h3 {
     color: purple;
     text-align: center;
     padding: 10px;
+}
+.option-box {
+    padding: 10px;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: $border-size;
 }
 p {
     text-align: center;
@@ -48,6 +64,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 .box {
     padding: 10px;
