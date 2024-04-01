@@ -40,6 +40,12 @@ p {
   padding: 10px;
 }
 
+a {
+  display: flex;
+  float: right;
+  margin: 64px 59px;
+}
+
 section {
   display: flex;
   align-items: center;
